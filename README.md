@@ -74,6 +74,18 @@ export default class MyComponent extends Component {
 }
 ```
 
+## HTMLDialogElement Feature Parity
+
+| Feature                                             | Support |
+| --------------------------------------------------- | ------- |
+| Behavior related to `open` property                 | ✅      |
+| Behavior related to `returnValue` property          | ❌      |
+| Behavior related to `close()` method                | ✅      |
+| Behavior related to `show()` method for dialogs     | ✅      |
+| Behavior related to `showModal()` method for modals | ✅      |
+| Behavior related to `cancel` event                  | ❌      |
+| Behavior related to `close` event                   | ❌      |
+
 ## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
