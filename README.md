@@ -31,7 +31,7 @@ ember install ember-native-modal
 #### Example using a modal
 
 ```hbs
-<dialog {{ember-native-modal$modal-helper open=this.isModalOpen}}>
+<dialog {{modal-helper open=this.isModalOpen}}>
   <div>
     <p>This is a modal</p>
     <button type="button" {{on "click" this.toggleModal}}>Close</button>
@@ -54,7 +54,7 @@ export default class MyComponent extends Component {
 #### Example using a dialog
 
 ```hbs
-<dialog {{ember-native-modal$dialog-helper open=this.isDialogOpen}}>
+<dialog {{dialog-helper open=this.isDialogOpen}}>
   <div>
     <p>This is a dialog</p>
     <button type="button" {{on "click" this.toggleDialog}}>Close</button>
