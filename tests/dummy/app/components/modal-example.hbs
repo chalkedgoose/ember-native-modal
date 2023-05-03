@@ -1,0 +1,10 @@
+<div class="modal-example">
+  <h2>Modal Example Component</h2>
+  <dialog {{modal-helper open=this.isModalOpen}}>
+    <div>
+      <p>This is a modal</p>
+      <button type="button" {{on "click" this.toggleModal}}>Close</button>
+    </div>
+  </dialog>
+  <button type="button" {{on "click" this.toggleModal}}>open modal</button>
+</div>

@@ -1,0 +1,16 @@
+@import "./normalize.css";
+
+.example-app {
+    padding: 15px;
+}
+
+.modal-example {
+  outline: orange solid 1px;
+  padding: 15px;
+}
+
+.dialog-example {
+  margin-top: 15px;
+  outline: purple solid 1px;
+  padding: 15px;
+}
