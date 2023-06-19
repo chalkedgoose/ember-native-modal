@@ -96,7 +96,7 @@
     "qunit": "^2.19.4",
     "qunit-dom": "^2.0.0",
     "release-it": "^15.5.0",
-    "typescript": "^5.0.4",
+    "typescript": "^5.1.3",
     "webpack": "^5.82.1"
   },
   "peerDependencies": {
