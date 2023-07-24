@@ -97,7 +97,7 @@
     "qunit-dom": "^2.0.0",
     "release-it": "^15.5.0",
     "typescript": "^5.0.4",
-    "webpack": "^5.82.1"
+    "webpack": "^5.88.2"
   },
   "peerDependencies": {
     "ember-source": "^3.28.0 || ^4.0.0"
